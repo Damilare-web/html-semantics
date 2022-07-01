@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+  font-weight: lighter;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.center {
+  text-align: center;
+}
+
+.top {
+  margin: 0;
+  padding: 10px;
+  width: 100%;
+  color: white;
+  background-color: #444;
+}
+
+.question {
+  margin-bottom: 8px;
+}
+
+label,
+.radio-btns {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: large;
+}
+
+.radio-btns {
+  margin-left: 46%;
+}
+
+.buttons {
+  display: inline-block;
+  padding: 15px;
+  margin-top: 20px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  background-color: #297e95;
+  cursor: pointer;
+  font-size: large;
+}
+
+.buttons:hover {
+  background-color: #3a8fa6;
+}
